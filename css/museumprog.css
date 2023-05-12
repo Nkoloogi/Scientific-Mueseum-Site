@@ -1,8 +1,3 @@
-.heading1_center{
-    text-align: center;
-    margin-top: 4rem;
-    font-size: 2rem;
-}
 #second_heading1_programs{
     padding-left: 24rem;
 }
@@ -54,21 +49,6 @@
     margin-right: 18rem;
     margin-top: 0rem;
 }
-.flex_box_column1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.events_article h3{
-    margin-bottom: 0rem;
-}
-.events_article{
-    margin-top: 1rem;
-}
-.events_article p{
-    margin: 1% 28%;
-}
 .heading_three_v1{
     text-align: center;
     margin-top: 1rem;
@@ -88,7 +68,6 @@
     gap: 1rem;
 }
 .testimony1,.testimony2,.testimony3{
-    /* position: relative; */
     max-width: 16rem;
 }
 .testimony-text{

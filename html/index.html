@@ -6,6 +6,7 @@
         <title>Scientific Museum</title>
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../fontawesome-free-6.3.0-web/css/all.min.css">
+        <link rel="stylesheet" href="../css/general_style.css">
     </head>
     <body>
         <header>
@@ -20,23 +21,23 @@
                     <button type="submit" class="search_btn"><i class="fas fa-light fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i>
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i></a>
             <div class="cart_user_account center-items">
                 <i class="fa-solid fa-user-plus"></i>
                 <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li><a href="#" class="remove_link_decoration">Login</a></li>
+                    <li><a href="#" class="remove_link_decoration">Register</a></li>
                 </ul>
             </div>
         </header>
         <nav class="main_menu color-white1 bgcolor-black">
             <ul>
                 <li><a href="#" >HOME</a></li>
-                <li><a href="#">MUSEUM PROGRAMS</a></li>
-                <li><a href="#">EXPLORE</a></li>
-                <li><a href="#">EVENTS</a></li>
-                <li><a href="#">EXHIBITIONS</a></li>
-                <li><a href="#">VISIT US</a></li>
+                <li><a href="./museum_programs.html">MUSEUM PROGRAMS</a></li>
+                <li><a href="./explore.html">EXPLORE</a></li>
+                <li><a href="./events.html">EVENTS</a></li>
+                <li><a href="./exhibitions.html">EXHIBITIONS</a></li>
+                <li><a href="./visitus.html">VISIT US</a></li>
             </ul>
         </nav>
         <img src="../images/homeimagetop.jpg" alt="kids_in_lab_image" class="homeimagetop">
@@ -65,12 +66,12 @@
        
         <div class="submenu_container center-items">
             <div class="submenu_grid_container">
-                <div class="grid_submenu"><button class="home_button color-white1">HOME</button></div>
-                <div class="grid_submenu"><button class="Events_button_button color-white1">Events</button></div>
-                <div class="grid_submenu"><button class="Museum_button color-white1">Museum Programs</button></div>
-                <div class="grid_submenu"><button class="Exhibition_button color-white1">Exhibitions</button></div>
-                <div class="grid_submenu"><button class="Explore_button color-white1">Explore</button></div>
-                <div class="grid_submenu"><button class="Visit_Us_button color-white1">Visit Us</button></div>
+                <div class="grid_submenu"><button class="home_button color-white1"><a href="#" class="remove_link_decoration">HOME</a></button></div>
+                <div class="grid_submenu"><button class="Events_button_button color-white1"><a href="./events.html" class="remove_link_decoration">Events</a></button></div>
+                <div class="grid_submenu"><button class="Museum_button color-white1"><a href="./museum_programs.html" class="remove_link_decoration">Museum Programs</a></button></div>
+                <div class="grid_submenu"><button class="Exhibition_button color-white1"><a href="./exhibitions.html" class="remove_link_decoration">Exhibitions</a></button></div>
+                <div class="grid_submenu"><button class="Explore_button color-white1"><a href="./explore.html" class="remove_link_decoration">Explore</a></button></div>
+                <div class="grid_submenu"><button class="Visit_Us_button color-white1"><a href="./visitus.html" class="remove_link_decoration">Visit Us</a></button></div>
             </div>
         </div>
        <footer class="footer_area">
@@ -89,7 +90,7 @@
             <div class="payments_modes">
                 <p>Pay With</p>
                 <div class="payment_icons">
-                    <img src="../images/visa.png" alt="visa_card_icon">
+                    <a href="#"><img src="../images/visa.png" alt="visa_card_icon"></a>
                 </div>
             </div>
         </div>

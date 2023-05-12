@@ -4,13 +4,9 @@
         <meta charset="UTF-8" lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Scientific Museum</title>
-        <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../fontawesome-free-6.3.0-web/css/all.min.css">
-        <link rel="stylesheet" href="../css/museumprog.css">
-        <link rel="stylesheet" href="../css/events.css">
-        <link rel="stylesheet" href="../css/exhibitions.css">
-        <link rel="stylesheet" href="../css/explore.css">
         <link rel="stylesheet" href="../css/visitus.css">
+        <link rel="stylesheet" href="../css/general_style.css">
     </head>
     <body>
         <header>
@@ -25,23 +21,23 @@
                     <button type="submit" class="search_btn"><i class="fas fa-light fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i>
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-flip-horizontal bgcolor-white"></i></a>
             <div class="cart_user_account center-items">
                 <i class="fa-solid fa-user-plus"></i>
                 <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li><a href="#" class="remove_link_decoration">Login</a></li>
+                    <li><a href="#" class="remove_link_decoration">Register</a></li>
                 </ul>
             </div>
         </header>
         <nav class="main_menu color-white1 bgcolor-black">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">MUSEUM PROGRAMS</a></li>
-                <li><a href="#">EXPLORE</a></li>
-                <li><a href="#">EVENTS</a></li>
-                <li><a href="#">EXHIBITIONS</a></li>
-                <li><a href="#">VISIT US</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./museum_programs.html">MUSEUM PROGRAMS</a></li>
+                <li><a href="./explore.html">EXPLORE</a></li>
+                <li><a href="./events.html">EVENTS</a></li>
+                <li><a href="./exhibitions.html">EXHIBITIONS</a></li>
+                <li><a href="./visitus.html">VISIT US</a></li>
             </ul>
         </nav>
         <section>
@@ -80,7 +76,7 @@
                     <p class="article_style1">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p> 
                 </article>
             </div>
-            <div class="events_container center-items">
+            <div class="wheel_chair_container center-items">
                 <img src="../images/wheel-char.jpg" alt="wheel-chair-image">
                 <article>
                     <h2>Accessibility</h2>
@@ -88,10 +84,12 @@
                     impaired.</p>
                 </article>
             </div>
-            <div class="events_container center-items">
-                <iframe
+            <div class="google_map_container">
+                <div class="g-map">
+                  <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1747.7557878429586!2d11.493980077541025!3d64.02021692712187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46729b26982c760f%3A0xcaa87c6527a4846e!2sKongens%20Gate%202%2C%201176%2C%207715%20Steinkjer%2C%20Norway!5e0!3m2!1sen!2sug!4v1683862753992!5m2!1sen!2sug"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+                </div>
                 <article>
                     <h2>Location</h2>
                     <p class="article_style1">The museum is located In the heart of the city, just 50 metres from the train station .
@@ -115,7 +113,7 @@
             <div class="payments_modes">
                 <p>Pay With</p>
                 <div class="payment_icons">
-                    <img src="../images/visa.png" alt="visa_card_icon">
+                    <a href="#"><img src="../images/visa.png" alt="visa_card_icon"></a>
                 </div>
             </div>
         </div>
@@ -131,6 +129,5 @@
             <p> Tel. +474583991 </p>
         </div>
        </footer>
-
     </body>
 </html>
