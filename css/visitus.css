@@ -1,0 +1,57 @@
+.events_container{
+    margin: 2% 8%;
+    padding: 2em;
+    gap: 4rem;
+    position: relative;
+}
+
+.events_bottom_images{
+    margin: 2% 15% 3%;
+}
+.events_bottom_images img{
+    object-fit: cover;
+    max-height: 472px;
+}
+
+
+
+
+/* style starts here */
+
+.heading2_visit_page{
+    padding-left: 8%;
+    font-size: 2em;
+}
+.first_paragraph_visit_page {
+    padding: 0% 8%;
+}
+.separator_visit_page {
+    padding-top: 0.5%;
+    margin: 2rem 9rem 0rem 9rem;
+}
+.food_article_container{
+    margin: 2% 8%;
+    padding: 1rem 7rem 2rem 0rem;
+    gap: 4rem;
+    position: relative;
+}
+.food_article_container img{
+    max-width: 100%;
+        height: 80vh;
+        object-fit: contain;
+        display: block;
+}
+
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

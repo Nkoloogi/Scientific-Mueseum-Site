@@ -1,0 +1,34 @@
+.first_paragraph_explore_page{
+    padding: 0% 17%;
+}
+.heart_and_teeth_container{
+    position: relative; 
+    padding: 0% 17%;
+}
+.heart_and_teeth_container img{
+    object-fit: cover;
+    width: 50%;
+}
+.separator_explore{
+    padding-top: 0.5%;
+    margin: 2rem 15rem 2rem 15rem;
+}
+.secondheading_1_explore_page{
+    text-align: center;
+    margin-top: 2rem;
+}
+.thirdheading_1_explore_page{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.last_paragraph_explore_page{
+    padding: 0% 30%;
+}
+.bottom_images_explore{
+    padding: 2rem;
+}
+.bottom_images_explore img{
+    object-fit: cover;
+    max-height: 350px;
+}

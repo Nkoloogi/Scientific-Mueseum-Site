@@ -1,10 +1,35 @@
 *{
     box-sizing: border-box;
 }
+a{
+    color: unset ;
+}
 body{
     margin: unset;
 }
-/* header styles */
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgcolor-white{
+    background-color: #ffffff; 
+}
+.color-white1{
+    color: #ffffff;
+}
+.color-black{
+    color: #000000;
+}
+.bgcolor-black{
+    background-color: #000000;
+}
+.article_style1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
 header{
     background-color: rgba(40, 167, 185, 0.9);
     height: 18vh;
@@ -14,9 +39,6 @@ header{
     padding: 2% 3%;
 }
 .title_searchbar, .cart_user_account{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 10%;
 }
 .title_searchbar ul{
@@ -24,22 +46,17 @@ header{
     font-style: normal;
     font-weight: 700;
     font-size: 2.3vh;
-    color: #000000;
     margin-left: 10%;
     list-style-type: none;
     white-space: nowrap;
 }
 .title_searchbar form {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 40%;
 }
 .title_searchbar input[type="text"] {
     border-radius: 5px;
-    padding: 0%;
-    width: 400px;
+    width: 18em;
 }
 .title_searchbar input::placeholder {
     color: #000000;
@@ -49,7 +66,6 @@ header{
     font-style: normal;
     font-weight: 700;
     font-size: 2.3vh;
-    color: #000000;
     padding: 2%;
     border: unset;
 }
@@ -62,21 +78,17 @@ header{
     border: unset;
 }
 .fa-flip-horizontal {
-    background-color: #FFFFFF;
-    padding: 8px;
-    margin-left: 25%;
-    font-size: 34px;
+    padding: 0.4rem;
+    margin-left: 20%;
+    font-size: 2em;
 }
 .cart_user_account{
     margin-right: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .fa-user-plus{
     padding: 2%;
     font-size: 3em;
-    color: #000000
+    margin-left: 10%;
 }
 .cart_user_account ul{
     font-family: 'Inter';
@@ -89,14 +101,10 @@ header{
 .cart_user_account a{
     text-decoration: unset;
 }
-/* nav style */
 .main_menu{
     width: 100%;
     height: 35%;
-    background: #000000;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     padding: 1%;
 }
 .main_menu ul{
@@ -113,20 +121,225 @@ header{
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
-    color: #FFFFFF;
     margin-right: 60px;
 }
-.grid-container {
+.homeimagetop{
+    object-fit: cover;
+    width: 100%;
+}
+.blackseparator1{
+    width: 100%;
+    padding-top: 1%;
+}
+.home_article1_container{
+    background-color: unset;
+    padding: 20px;
+    width: 49%;
+    margin: auto;
+}
+.home_article1_container ul{
+    list-style-type: none;
+    margin-inline-start: 8%;
+}
+.homeimages-middle {
+    padding: 0rem;
+    margin: 0rem;
+}
+.homeimages-middle img{
+    object-fit: cover;
+    width: 50%;
+    max-height: 507px;
+}
+.home_article2_container {
+    width: 50%;
+    padding: 1.6em; 
+}
+.home_article2_container h2{
+     text-align: center;
+}
+.home_article2_container p{
+    top: 190%;
+    list-style-type: none;
+    margin-inline-start: 8%;
+}
+.home_article2_container h2{
+    top: 6%;
+    left: 30%;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0rem;
+    margin-inline-start: 8%;
+}
+.submenu_grid_container{
     display: grid;
     grid-template-columns: auto auto;
-    /* background-color: #2196F3; */
-    padding: 10px;
+    width: 50%;
+    padding: 1.6em;
 }
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    font-size: 30px;
+.grid_submenu{
+    border: unset;
+    padding: 2rem;
     text-align: center;
 }
+.grid_submenu .home_button,.Events_button_button,.Museum_button,.Exhibition_button,.Explore_button,.Visit_Us_button{
+    border-radius: 73%;
+    padding: 3%;
+    width: 30vh;
+    border: unset;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.grid_submenu .home_button{
+    background: #28B92EED;
+}
+.grid_submenu .Events_button_button{
+    background: #28A7B9E5;
+}
+.grid_submenu .Museum_button {
+    background: #AD28B9E5;
+}
+.grid_submenu .Exhibition_button{
+    background: #3428B9E5;
+}
+.grid_submenu .Explore_button{
+    background: #28B92EED;
+}
+.grid_submenu .Visit_Us_button{
+    background: #28A7B9E5;
+}
+.footer_area{
+    background-color: rgba(40, 167, 185, 0.9);
+    line-height: 1.5;
+    position: relative; 
+    margin-top: 0%;
+}
+.follow-paywith-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.social_handles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.social_handles p{
+    margin-right: 3.5em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vh;
+    color: #000000;
+    list-style-type: none;
+    white-space: nowrap;
+}
+.social_icons ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    font-size: 2rem;
+    margin: unset;
+}
+.social_icons a{
+    margin-right: 1rem;
+}
+.social_icons .fa-square-facebook {
+    color: #3b5998;
+    border: unset;
+    border-radius: 20%;
+    padding: 2px;
+}
+.social_icons .fa-square-instagram {
+    background: linear-gradient(to bottom right, #f95959, #ce3778, #9c218c, #663399, #2f2c5f);
+    border-radius: 20%;
+    border: unset;
+    padding: 3px;
+}
+.social_icons .fa-tiktok {
+    border: unset;
+    border-radius: 20%;
+    padding: 2px;
+}
+.social_icons .fa-twitter {
+    color: #1DA1F2;
+    border: unset;
+    border-radius: 20%;
+    padding: 2px;
+}
+.payments_modes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10%;
+}
+.payments_modes p {
+    margin-left: 3.5em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vh;
+    color: #000000;
+    list-style-type: none;
+    white-space: nowrap;
+}
+.payment_icons img {
+    margin-left: 47%;
+    /* height: 2em;
+    object-fit: cover; */
+}
+.blackseparator2 {
+    width: 100%;
+    background-color: #000000;
+    padding-top: 0.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.copyright_info{
+    display: flex;
+    justify-content: space-between;
+}
+.site_title_footer{
+    margin-left: 10%;
+} 
+.site_title_footer ul{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vh;
+    list-style-type: none;
+    padding: 0%;        
+} 
+.copyright_info p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3vh;
+    margin-right: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

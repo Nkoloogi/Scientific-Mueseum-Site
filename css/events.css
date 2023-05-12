@@ -1,0 +1,23 @@
+.events_container{
+    margin: 2% 8%;
+    padding: 2em;
+    gap: 6rem;
+    position: relative;
+}
+.separator_events_page {
+    padding-top: 0.5%;
+    margin: 2rem 11rem 2rem 11rem;
+}
+.events_bottom_images{
+    margin: 2% 15% 3%;
+}
+.events_bottom_images img{
+    object-fit: cover;
+    max-height: 472px;
+}
+.online_article_container{
+    margin: 2% 8%;
+    padding: 2em;
+    gap: 9rem;
+    position: relative;
+}
