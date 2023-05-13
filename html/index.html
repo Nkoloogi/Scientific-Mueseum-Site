@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" lang="en">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Scientific Museum</title>
         <link rel="stylesheet" href="../css/index.css">
@@ -30,6 +31,7 @@
                 </ul>
             </div>
         </header>
+        <!-- NAV for Default Screen -->
         <nav class="main_menu color-white1 bgcolor-black">
             <ul>
                 <li><a href="#" >HOME</a></li>
@@ -40,6 +42,26 @@
                 <li><a href="./visitus.html">VISIT US</a></li>
             </ul>
         </nav>
+
+        <!-- HEADER for Hamburger Response -->
+        <div class="hamburger_container">
+            <input id="menu-box" type="checkbox">
+            <label for="menu-box">
+                <div class="hamburger_icon"><i class="fa fa-bars"></i></div>
+            </label> 
+            <label class="menu-overlay hamburger_menu" for="menu-box">
+            </label>
+            <nav class="hamburger_menu color-white1 bgcolor-black">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="./museum_programs.html">MUSEUM PROGRAMS</a></li>
+                    <li><a href="./explore.html">EXPLORE</a></li>
+                    <li><a href="./events.html">EVENTS</a></li>
+                    <li><a href="./exhibitions.html">EXHIBITIONS</a></li>
+                    <li><a href="./visitus.html">VISIT US</a></li>
+                </ul>
+            </nav>
+        </div>
         <img src="../images/homeimagetop.jpg" alt="kids_in_lab_image" class="homeimagetop">
         <div class="blackseparator1"></div>
         <div class="home_article1_container">
@@ -63,7 +85,6 @@
             </p>
         </div>
         </div>
-       
         <div class="submenu_container center-items">
             <div class="submenu_grid_container">
                 <div class="grid_submenu"><button class="home_button color-white1"><a href="#" class="remove_link_decoration">HOME</a></button></div>
