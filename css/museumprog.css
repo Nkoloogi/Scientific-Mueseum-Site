@@ -1,59 +1,39 @@
 #second_heading1_programs{
-    padding-left: 24rem;
+    text-align: center;
+    font-size: 2rem;
 }
 .open_hours_container{
     background: rgba(46, 178, 51, 0.16);
-    border-radius: 4rem;
+    border-radius: 3em;
     margin: 3% 15%;
-    padding: 2em;
-    gap: 25rem;
+    padding: 0%;
+    gap: 25%;
     position: relative;
 }
-.left-div{
-    margin-top: 2rem;
-}
-.right-div{
-    margin-top: 0rem;
+.left-div, .right-div{
+    margin-top: 0em;
 }
 .left-div ul{
     list-style: none;
     white-space: nowrap;
 }
-.guided_tour_container{
-    padding: 2rem;
-}
-.meetups_article{
-    padding: 2rem;
-}
-.count-item-container {
-    line-height: 1rem;
-    border-radius: 5%;
-    padding: 0.5rem;
-    margin: 1% 30%;
-}
-.count-item-container input[type="number"] {
-    text-align: center;
-    font-size: 1.5rem;
-    width: 6rem;
-}
-.count-item-container span {
-    font-size: 1.5rem;
-    padding: 0.25rem;
+.guided_tour_container,.meetups_article{
+    padding: 12%;
 }
 .right-div p{
     text-align: center;
 }
 .blackseparator3{
     padding-top: 0.5%;
-    margin-left: 18rem;
-    margin-right: 18rem;
-    margin-top: 0rem;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 0%;
 }
 .heading_three_v1{
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2%;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1%;
 }
 .museum_program_images_p1{
     margin: 2% 15% 3%;
@@ -65,11 +45,11 @@
 .testimonials_container{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 4%;
     margin-bottom: 5%;
 }
 .testimony1,.testimony2,.testimony3{
-    max-width: 16rem;
+    max-width: 20%;
 }
 .testimony-text{
     font-weight: 600;

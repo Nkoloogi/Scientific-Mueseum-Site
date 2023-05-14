@@ -8,22 +8,22 @@
 }
 .separator_explore{
     padding-top: 0.5%;
-    margin: 2rem 15rem 2rem 15rem;
+    margin: 3% 17% 3% 17%;
 }
 .secondheading_1_explore_page{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3.2%;
 }
 .thirdheading_1_explore_page{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3.2%;
     font-size: 1.5rem;
 }
 .last_paragraph_explore_page{
     padding: 0% 30%;
 }
 .bottom_images_explore{
-    padding: 2rem;
+    padding: 3.2%;
 }
 .bottom_images_explore img{
     object-fit: cover;

@@ -7,43 +7,24 @@
 }
 .separator_visit_page {
     padding-top: 0.5%;
-    margin: 2rem 9rem 0rem 9rem;
+        margin: 3.2% 8.4% 0% 7.4%;
 }
-.food_article_container{
+.food_article_container,.wheel_chair_container,.google_map_container{
     margin: 2% 7%;
-    padding: 1rem 7rem 2rem 0rem;
-    gap: 4rem;
+    padding: 1.6% 11.2% 3.2% 0%;
+    gap: 6.4%;
     position: relative;
 }
-.food_article_container img{
+.food_article_container img,.wheel_chair_container img{
     max-width: 100%;
     width: 20.83vw;
     object-fit: contain;
     display: block;
 }
-.wheel_chair_container {
-    margin: 2% 7%;
-    padding: 1rem 7rem 2rem 0rem;
-    gap: 4rem;
-    position: relative;
-}
-.wheel_chair_container img {
-    max-width: 100%;
-    width: 20.83vw;
-    object-fit: contain;
-    display: block;
-}
-.google_map_container{
-margin: 2% 7%;
-    padding: 1rem 7rem 2rem 0rem;
-    gap: 4rem;
-    position: relative;
-}
-
 iframe{
     max-width: 100%;
-    width: 23vw;
-    height: 18vh;
+    width: 26vw;
+    height: 20vh;
     object-fit: contain;
     display: block;
 }

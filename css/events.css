@@ -1,12 +1,13 @@
 .events_container{
     margin: 2% 8%;
-    padding: 2em;
-    gap: 6rem;
+    padding: 3.2%;
+    gap: 9.6%;
     position: relative;
+    display: flex;
 }
 .separator_events_page {
     padding-top: 0.5%;
-    margin: 2rem 11rem 2rem 11rem;
+    margin: 3.2% 11% 3.2% 11%;
 }
 .events_bottom_images{
     margin: 2% 15% 3%;
@@ -17,7 +18,8 @@
 }
 .online_article_container{
     margin: 2% 8%;
-    padding: 2em;
-    gap: 9rem;
+    padding: 3.2%;
+    gap: 14.6%;
     position: relative;
+    display: flex;
 }
