@@ -18,7 +18,7 @@
 .homeimages-middle img{
     object-fit: cover;
     width: 50%;
-    max-height: 507px;
+    height: 60vh;
 }
 .home_article2_container {
     width: 50%;
@@ -78,14 +78,49 @@
     background: #28A7B9E5;
 }
 
-/* style for breakpoint of 500px and less (phones)*/
+
+
 @media screen and (max-width: 500px){
-    .submenu_grid_container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    /* .home_article1_container {
+            width: unset;
     }
+    .home_article1_container ul,
+    .home_article2_container p,
+    .home_article2_container h2 {
+        margin: unset;
+        padding: 3%;
+    }
+    .article_style1 {
+        font-size: 1.2rem;
+    }
+    .home_article2_container {
+        width: unset;
+    }
+    .home_article2_container h2 {
+        font-size: 1.5rem;
+    }
+    .submenu_grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        width: 50%;
+        margin-bottom: 1%;
+    }
+    .submenu_container {
+        margin: unset;
+        padding: unset;
+    }
+    .grid_submenu .home_button,
+    .Events_button_button,
+    .Museum_button,
+    .Exhibition_button,
+    .Explore_button,
+    .Visit_Us_button {
+        font-size: 1.0rem;
+        width: 45vw;
+    }
+    .grid_submenu {
+        padding: 5%;
+    } */
 }
 
 
