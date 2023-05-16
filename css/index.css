@@ -1,7 +1,13 @@
-.homeimagetop{
+.homeimage-top-container {
+    padding: 0%;
+    margin: 0%;
+}
+
+.homeimage-top-container img {
     object-fit: cover;
     width: 100%;
 }
+
 .home_article1_container{
     background-color: unset;
     padding: 20px;
@@ -12,8 +18,8 @@
     list-style-type: none;
 }
 .homeimages-middle {
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0%;
+    margin: 0%;
 }
 .homeimages-middle img{
     object-fit: cover;
@@ -22,7 +28,7 @@
 }
 .home_article2_container {
     width: 50%;
-    padding: 1.6em; 
+    padding: 2%; 
 }
 .home_article2_container h2{
      text-align: center;
@@ -80,7 +86,90 @@
 
 
 
+
+
+
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 1000px) {
+    .home_article1_container,
+    .home_article2_container {
+        width: 60%;
+    }
+
+    .home_article2_container h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .homeimages-middle img {
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .home_article1_container,
+    .home_article2_container {
+        width: 80%;
+    }
+    .grid_submenu .home_button,
+    .Events_button_button,
+    .Museum_button,
+    .Exhibition_button,
+    .Explore_button,
+    .Visit_Us_button {
+        font-size: 1rem;
+    }
+
+    .submenu_grid_container {
+        margin-bottom: 2%;
+    }
+    .homeimages-middle img {
+        object-fit: cover;
+        width: 50%;
+        height: 45vh;
+    }
+    .home_article2_container h2 {
+        font-size: 2rem;
+    }
+
+}
+
 @media screen and (max-width: 500px){
+    .submenu_grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 3%;
+    }
+
+    .submenu_container {
+        margin: unset;
+        padding: unset;
+    }
+
+    .grid_submenu {
+        padding: 5%;
+    }
+    .grid_submenu .home_button,
+    .Events_button_button,
+    .Museum_button,
+    .Exhibition_button,
+    .Explore_button,
+    .Visit_Us_button {
+        font-size: 1.0rem;
+        width: 45vw;
+    }
+    .homeimages-middle img {
+        height: 30vh;
+    }
+
+   
+
+                
     /* .home_article1_container {
             width: unset;
     }
@@ -123,6 +212,31 @@
     } */
 }
 
+@media screen and (max-width: 470px) {
+    .hamburger_container form {
+        margin-right: 36%;
+    }
+
+    .home_article1_container,
+    .home_article2_container {
+        width: 80%;
+    }
+    .home_article2_container h2 {
+        font-size: 0rem;
+    }
+
+}
+
+@media screen and (max-width: 343px) {
+   
+
+}
+
+@media screen and (max-width:308px) {
+    .home_article2_container h2 {
+        font-size: 1.5rem;
+    }
+}
 
 
 
