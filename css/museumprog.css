@@ -11,12 +11,20 @@
     position: relative;
 }
 .left-div, .right-div{
-    margin-top: 0em;
+    margin-top: 0%;
 }
 .left-div ul{
     list-style: none;
     white-space: nowrap;
 }
+.working_hours, .guided_tour_container, .meetups_article
+,.article_style_a p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
 .guided_tour_container,.meetups_article{
     padding: 12%;
 }
@@ -60,16 +68,21 @@
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1020px) {
+    
+}
 
+@media screen and (max-width: 1000px) {
+ 
 }
 
 @media screen and (min-width: 768px) {
-   
+    
+        
 }
 
 @media screen and (max-width: 600px) {
-
+       
 }
 
 @media screen and (max-width: 500px) {
