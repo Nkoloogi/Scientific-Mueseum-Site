@@ -1,3 +1,8 @@
+.heading1_events {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 2.5rem;
+}
 .events_container{
     margin: 2% 8%;
     padding: 3.2%;
@@ -23,3 +28,4 @@
     position: relative;
     display: flex;
 }
+
