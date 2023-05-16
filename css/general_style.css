@@ -23,9 +23,11 @@ header {
   margin-right: 2% ;
 }
 
-
 .mr-4 {
     padding-right: 9%;
+}
+.mr-10{
+    padding-right: 10%;
 }
 
 .title_searchbar,
@@ -299,9 +301,6 @@ header {
     margin: 1% 28%;
 }
 
-.first_paragraph_explore_page {
-    padding: 0% 17%;
-}
 .flex_box_column1 {
     display: flex;
     justify-content: center;
@@ -567,8 +566,11 @@ header {
     } */
 }
 @media screen and (max-width: 470px){
-.article_style1 {
+    .article_style1 {
         font-size: 1.3rem;
+    }
+    .hamburger_container form {
+        margin-right: 36%;
     }
 }
 @media screen and (max-width: 343px) {

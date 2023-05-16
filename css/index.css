@@ -86,10 +86,6 @@
 
 
 
-
-
-
-
 @media screen and (max-width: 1200px){
 
 }
@@ -167,56 +163,10 @@
         height: 30vh;
     }
 
-   
-
-                
-    /* .home_article1_container {
-            width: unset;
-    }
-    .home_article1_container ul,
-    .home_article2_container p,
-    .home_article2_container h2 {
-        margin: unset;
-        padding: 3%;
-    }
-    .article_style1 {
-        font-size: 1.2rem;
-    }
-    .home_article2_container {
-        width: unset;
-    }
-    .home_article2_container h2 {
-        font-size: 1.5rem;
-    }
-    .submenu_grid_container {
-        display: grid;
-        grid-template-columns: auto;
-        width: 50%;
-        margin-bottom: 1%;
-    }
-    .submenu_container {
-        margin: unset;
-        padding: unset;
-    }
-    .grid_submenu .home_button,
-    .Events_button_button,
-    .Museum_button,
-    .Exhibition_button,
-    .Explore_button,
-    .Visit_Us_button {
-        font-size: 1.0rem;
-        width: 45vw;
-    }
-    .grid_submenu {
-        padding: 5%;
-    } */
 }
 
 @media screen and (max-width: 470px) {
-    .hamburger_container form {
-        margin-right: 36%;
-    }
-
+    
     .home_article1_container,
     .home_article2_container {
         width: 80%;
