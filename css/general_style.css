@@ -73,7 +73,7 @@ header {
 .title_searchbar button {
     position: absolute;
     right: 0%;
-    font-size: 2vh;
+    font-size: 2rem;
     color: #818181;
     background: unset;
     border: unset;
