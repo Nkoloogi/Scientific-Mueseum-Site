@@ -300,6 +300,14 @@ header {
 }
 
 
+@media screen and (max-width: 1400px){
+    .mr-10 {
+        padding-right: 5%;
+    }
+    .main_menu a {
+        font-size: 1.5em;
+    }
+}
 @media screen and (max-width: 1200px) {
     .main_menu {
         display: none;
