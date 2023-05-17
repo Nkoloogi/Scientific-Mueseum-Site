@@ -28,3 +28,30 @@ iframe{
     object-fit: contain;
     display: block;
 }
+.heading1_visit{
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .card iframe, .card img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .card iframe,
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card iframe,
+    .card img {
+        width: 100%;
+    }
+}

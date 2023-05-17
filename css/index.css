@@ -17,18 +17,24 @@
 .home_article1_container ul{
     list-style-type: none;
 }
-.homeimages-middle {
-    padding: 0%;
-    margin: 0%;
+
+.homeimages-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 5%;
 }
 .homeimages-middle img{
     object-fit: cover;
     width: 50%;
-    height: 60vh;
 }
+
 .home_article2_container {
     width: 50%;
-    padding: 2%; 
 }
 .home_article2_container h2{
      text-align: center;
@@ -86,26 +92,25 @@
 
 
 
-@media screen and (max-width: 1200px){
-
-}
-
 @media screen and (max-width: 1000px) {
     .home_article1_container,
     .home_article2_container {
         width: 60%;
     }
-
     .home_article2_container h2 {
         font-size: 3.5rem;
     }
-}
-
-@media screen and (min-width: 768px) {
-    .homeimages-middle img {
-        height: 40vh;
+    .home_article2_container h2 {
+        font-size: 3rem;
+    }
+    .homeimages-middle{
+        flex-direction: column;
+    }
+    .home_article1_container ul{
+        padding-left: 0%;
     }
 }
+
 @media screen and (max-width: 600px) {
 
     .home_article1_container,
@@ -125,17 +130,24 @@
         margin-bottom: 2%;
     }
     .homeimages-middle img {
-        object-fit: cover;
-        width: 50%;
-        height: 45vh;
+        width: 80vw;
     }
+
     .home_article2_container h2 {
         font-size: 2rem;
     }
+    .article_style1 {
 
+        padding-left: initial;
+    }
 }
 
 @media screen and (max-width: 500px){
+    .homeimages-middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .submenu_grid_container {
         display: grid;
         grid-template-columns: auto;
@@ -159,10 +171,9 @@
         font-size: 1.0rem;
         width: 45vw;
     }
-    .homeimages-middle img {
-        height: 30vh;
+    .home_article2_container h2 {
+        font-size: 2rem;
     }
-
 }
 
 @media screen and (max-width: 470px) {
@@ -172,13 +183,8 @@
         width: 80%;
     }
     .home_article2_container h2 {
-        font-size: 0rem;
+        font-size: 2rem;
     }
-
-}
-
-@media screen and (max-width: 343px) {
-   
 
 }
 

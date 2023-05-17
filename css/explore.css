@@ -60,9 +60,6 @@
         border: 2px solid rgb(47, 43, 43);
     }
 }
-@media screen and (max-width: 1020px) {
-    
-}
 
 @media screen and (max-width: 1000px){
     .secondheading_1_explore_page{
@@ -72,8 +69,6 @@
         font-size: 2.3rem;
     }
 }
-
-@media screen and (min-width: 768px) {}
 
 @media screen and (max-width: 600px) {
     .heading1_center {
@@ -90,10 +85,3 @@
     }             
 }
 
-@media screen and (max-width: 470px) {
-
-}
-
-@media screen and (max-width: 343px) {}
-
-@media screen and (max-width:308px) {}

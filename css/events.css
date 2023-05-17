@@ -47,6 +47,8 @@
     margin: 3.2% 11% 3.2% 11%;
 }
 .events_bottom_images{
+    margin: 2% 8%;
+    padding: 3.2%;
     margin-top: 0%;
     margin-bottom: 5%;
     position: relative;
@@ -55,9 +57,8 @@
 .events_bottom_images img{
     object-fit: cover;
     height: 40vh;
-
+    flex-grow: 1;
 }
-
 
 /* MEDIA CSS RULES */
 @media screen and (max-width: 1200px) {
@@ -70,19 +71,21 @@
     }
 }
 
-@media screen and (max-width: 1020px) {
-
-}
-
 @media screen and (max-width: 1000px) {
     .events_style1,
     .events_style2, .last_article_events {
         font-size: 2rem;
     }
-}
-
-@media screen and (min-width: 768px) {
-
+    .events_bottom_images{
+        max-width: 100%;
+        margin: unset;
+        padding: unset;
+        flex-direction: column;
+    }
+    .events_bottom_images img{
+        height: unset;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -116,10 +119,6 @@
     }
 }
 
-@media screen and (max-width: 470px) {
- 
-}
-
 @media screen and (max-width: 343px) {
     .heading1_events, .last_article_events h3 {
         font-size: 1.3rem;
@@ -129,8 +128,4 @@
     .events_style2 {
         font-size: 1.2rem;
     }
-}
-
-@media screen and (max-width:308px) {
- 
 }
