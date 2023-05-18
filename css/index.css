@@ -24,7 +24,7 @@ body {
 .splash_image_container {
     padding: 0%;
     margin: 0%;
-    animation: splashAnimation 2s ease-in-out forwards;
+    animation: splashAnimation 3s ease-in-out forwards;
 }
 
 .splash_image_container img {
